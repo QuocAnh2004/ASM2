@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    /*khoảng cách lớp cha tới hộp con là bằng không tràn viền luôn*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* float: left;  */
+    width: 100vw;
+    /*full màn hinh */
+    background-color: brown;
+    /*cho màu đen*/
+    height: 80px;
+    /*độ cao*/
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.header-left {
+    height: 32px;
+}
+
+.header-right {
+    height: 32px;
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    background-color: #333;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-login {
+    width: 90px;
+    height: 30px;
+}
+
+.btn-join {
+    width: 90px;
+    height: 30px;
+}
+
+.btn-upload {
+    width: 90px;
+    height: 30px;
+}
+
+.banner {
+    width: 100vw;
+    background-image: url("../img/bong_lua_bay.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    border-radius: 5px;
+    top: 0px;
+
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    /* border: 5px; */
+}
+
+.title-search {
+    position: absolute;
+    top: 80px;
+    float: left;
+    left: 24%;
+    /*đẩy nó vào giữa*/
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    /*cho chữ đậm ra*/
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    background-color: brown;
+    min-height: 800px;
+    padding-top: 24px;
+}
+
+.content {
+    flex: 1;
+    min-height: 800px;
+    /* overflow: auto; */
+}
+
+footer {
+    width: 100vw;
+    /*full màn hinh */
+    background-color: #333;
+    /*cho màu đen*/
+    min-height: 150px;
+    /*độ cao*/
+    /* border-radius: 5px; */
+}
+
+.row {
+    padding-top: 12px;
+    width: 100%;
+}
+
+.boxcenter2 {
+    width: 50%;
+    margin: 0 auto;
+    /*căn giữa so với thằng cha*/
+
+}
+
+.boxfooter1 {
+    width: 18%;
+    float: left;
+
+}
+
+.boxfooter2 {
+    width: 28%;
+    float: left;
+
+}
+
+.mrr2 {
+    margin-right: 2%;
+}
+
+.boxfooter3 {
+    width: 50%;
+    float: left;
+}
+
+
+.textcenter {
+    text-align: center;
+}
+
+.colorC {
+    color: #ceced2;
+}
+
+.mrb10 {
+    margin-bottom: 10px;
+}
+
+.ul-menu {
+    /* display: flex;
+    flex-direction: row;
+    row-gap: 12px; */
+    margin-left: 32px;
+    list-style-type: none;
+}
+.li-menu{
+margin-bottom: 12px;
+}
+
+.li-menu:hover{
+    background-color: pink;
+    color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 120px;
+    height: 32px;
+    margin-left: 12px;
+    transition: 0.4s;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+

@@ -1,0 +1,354 @@
+body{
+    margin: 0;/*khoảng cách lớp cha tới hộp con là bằng không tràn viền luôn*/
+    /* padding: 0; */
+}
+
+.boxtop{
+  float: left; 
+   width: 100%; /*full màn hinh */
+  background-color: brown; /*cho màu đen*/
+height: 80px; /*độ cao*/
+border-radius: 5px;
+
+}
+/* .button{
+    border: none;
+    height: 40px;
+    width: 72px;
+   
+}
+*/
+/*bắt đầu nút bấm */
+.boximage a{
+    text-decoration: none;/*làm mất gạch chân phía dưới*/
+
+}
+.boximage a:hover{
+    /* margin-block: 20px; */
+   
+    color: aqua;
+}
+
+
+/* .btn-login{
+    background-color: #ffffff;
+}
+
+.btn-login:hover{
+    background: #f7f7f7;
+    color: #656f79;
+    border-radius: 15px;
+    height: 40px;
+    width: 72px;
+}
+
+.btn-join{
+    border-radius: 15px;
+    background:#ffffff;
+    border: 1px solid #ceced2;
+}
+.btn-join:hover{
+    color: #656f79;
+    border: 1px solid black;
+}
+
+.btn-upload{
+     border-radius: 15px;
+    background: green;
+    border: 1px solid gray;
+}
+
+.btn-upload:hover{
+     color: greenyellow;
+    border: 1px solid black;
+}
+end nút bấm */
+/* .logo{
+    width: 200px;
+    height: 30px;
+}  */
+
+
+
+
+.boxlogo{
+    float: left; /*cho canh lề trái*/
+    width: 100%;/*full màn hình*/
+    border-bottom: 1px #ccc solid ;/* soild cho nó liền kề liền nét*/
+    height: 400px; /* cho độ cao là 50*/
+    text-align: center; /* cho logo nằm giữa*/
+    padding-bottom: 70px; /* cho nó thục xuống so với đg viền phía trên*/
+
+}
+/* box thanh tìm kiếm .boxtimkiem*/
+
+
+.boxmenu{
+    float: left; /*cho canh lề trái*/
+    width: 100%;/*full màn hình*/
+    /* border-bottom: 1px #ccc solid ;soild cho nó liền kề liền nét */
+    height: 80px; /* cho độ cao là 50*/
+    /* text-align: center; cho logo nằm giữa */
+    /* padding-top: 20px; cho nó thục xuống so với đg viền phía trên */
+    background-color: pink;
+    padding-left: 50px;
+    padding-left: 450px;
+
+
+}
+
+.boxmenu a:hover{
+   background-color: red;
+   border: 5px;
+   border-radius: 3px;
+}
+
+
+.search{
+    background-color: #fff;
+    height: 35px;
+    width: 500px;
+    margin: 0;
+}
+article{
+    float: left;
+    width: 100%;
+    min-height: 500px;
+    background-color: blanchedalmond;  
+  
+}
+.boximage
+{
+    float: left; /* để canh qua trái thằng nào canh cùng sẽ đẩy lên theo*/
+    width: 25%;
+    margin-left: 20px; /*ma gin này giúp cho nó xích qua bên trái*/
+    margin-top: 20px;/*ma gin này giúp cho nó cách phái trên 20px*/
+    padding-left: 50px; /* dùng để nó xích qua so với lề */
+    margin-bottom: 20px; /*cho nó cách khoảng nhưngx tấm hình ra*/
+}
+.boximage1{
+    width: 100%;
+}
+
+.boximage1 img{  /* cho nó 100% để nó vừa với cái hộp đã tạo*/
+    width: 100%;
+
+}
+
+
+footer{
+    float: left; 
+    width: 100%; /*full màn hinh */
+   background-color: #333; /*cho màu đen*/
+ min-height: 150px; /*độ cao*/
+ /* border-radius: 5px; */
+}
+
+.boxcenter
+{
+    width:  70%; /*chiếm diện tích 70%*/
+    margin: 0 auto;/*top và bottom nó bằng giá trị không auto là hai bên nó tự co lại*/
+   
+}
+.boxtopleft{
+    float: left;
+    height: 50px;/*cao 50px*/
+    line-height: 100px; /* chiều cao của chữ*/
+
+}
+.boxtopright{
+    float: right;
+    height: 50px;/*cao 50px*/
+    line-height: 80px; /* chiều cao của chữ*/
+    
+
+}
+.boxtopright a, footer a{
+    /* margin-block: 20px; */
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.boxlogo p{
+    position: absolute;
+    top: 200px;
+    float: left;
+    left: -4%; /*đẩy nó vào giữa*/
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold; /*cho chữ đậm ra*/
+}
+
+button{
+    background-color: #333;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px;
+}
+
+.boxtopright a:hover, footer a:hover{
+
+   color: pink;
+   text-decoration: underline;
+}
+.hinhTChu{
+    float: left;
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none; /*cho nó mất cái dấu chấm */
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 11pt;
+}
+
+ul li:hover ul{
+    display: block;
+    position: absolute;
+   
+}
+
+ul li ul{
+    display: none; /* cho nó ẩn menu con*/
+    background-color: #eee;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul li ul li{
+    float: none;
+    border-bottom: 1px orange solid;
+    border-left: 1px orange solid;
+    border-right: 1px orange solid;
+    padding: 5px 20px;
+}
+
+ul li ul li:first-child{
+     border-top: 1px orange solid;
+}
+
+.row{
+    float: left;
+    width: 100%
+    ;
+    margin-bottom: 20px
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto; /*căn giữa so với thằng cha*/
+
+}
+.boxfooter1{
+    width: 18%;
+    float: left;
+    
+}
+.boxfooter2{
+    width: 28%;
+    float: left;
+   
+}
+
+.mrr2{
+     margin-right: 2%;
+}
+.boxfooter3{
+    width: 50%;
+    float: left;
+   margin-bottom: 30px;
+}
+
+
+.textcenter{
+    text-align: center;
+}
+.colorC{
+    color: #ceced2;
+}
+
+.mrb10{
+    margin-bottom: 10px;
+}
+/* .nutbam{
+    padding: 0;
+    margin: 0;
+
+} */
+.boxtopleft button{
+    padding: 0;
+   
+    
+}
+/*search*/
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    top: -50px;
+    
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    /* border: 5px; */
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+/* .kmq{
+  color: yellow;
+} */
+
+.content{
+    width: 80%;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+}
