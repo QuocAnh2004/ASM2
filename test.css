@@ -1,0 +1,22 @@
+.form-style{
+    border: 1px solid white;
+    width: 450px;
+    margin-left: 32px;
+    margin-right: auto;
+    background-color: #1dbeef;
+    opacity: 0.7;
+}
+
+.form-style label{
+    color: #333333;
+}
+
+.field-wrapper{
+    display: flex;
+    gap: 8px;
+}
+
+.label-field{
+text-align: right;
+    width: 100px;
+}
